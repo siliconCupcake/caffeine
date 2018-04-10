@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="@string/pref_category_general">
+
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="@string/key_launcher_icon_toggle"
+            android:summary="@string/summ_launcher_icon_toggle"
+            android:title="@string/title_launcher_icon_toggle" />
+
+        <ListPreference
+            android:defaultValue="1"
+            android:entries="@array/caffeinate_duration_entries"
+            android:entryValues="@array/caffeinate_duration_values"
+            android:dialogTitle="@string/dialog_title_caffeinate_duration"
+            android:key="@string/key_caffeinate_duration"
+            android:summary="@string/summ_caffeinate_duration"
+            android:title="@string/title_caffeinate_duration" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

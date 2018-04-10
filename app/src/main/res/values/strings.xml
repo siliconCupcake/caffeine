@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Caffeine</string>
+    <string name="pref_category_general">General</string>
+
+    <string name="title_launcher_icon_toggle">Remove launcher icon</string>
+    <string name="key_launcher_icon_toggle">TOGGLE_LAUNCHER_ICON</string>
+    <string name="summ_launcher_icon_toggle">Switching this on, will remove the app icon from your app drawer</string>
+
+    <string name="title_caffeinate_duration">Caffeinate for</string>
+    <string name="key_caffeinate_duration">SET_CAFFEINE_DURATION</string>
+    <string name="summ_caffeinate_duration">10 minutes</string>
+    <string name="dialog_title_caffeinate_duration">Set default duration</string>
+</resources>
